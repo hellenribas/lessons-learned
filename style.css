@@ -25,10 +25,11 @@ h1 {
     width: 0 100px;
     display: inline;
     color: rgb(41, 75, 51);
-    font-family: font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
     font-family: 'Playfair Display', serif;
     font-family: 'Trirong', serif;;
 }
+
 h2 {
     font-size: 40px;
 }
@@ -38,4 +39,18 @@ li {
 p {
     line-height: 30px;
     font-size: 25px;
+}
+.lado-esquerdo {
+    float: left;
+    width: 450px;
+    border: red solid;
+}
+.lado-direito {
+    float: right;
+    width: 500px;
+    border: solid red;
+    margin: 0 0 0 200px;
+}
+footer {
+   top: 500px;
 }
