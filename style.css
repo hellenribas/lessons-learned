@@ -13,11 +13,12 @@ header {
 }
 #minha_foto {
     border-radius: 50%;
-    margin-left: 290px;
+    margin-left: 600px;
     margin-top: 80px;
     margin-bottom: 50px;
     object-fit: cover;
     width: 200px;
+    box-shadow: rgba(5px 5px 5px 10px);
     
 }
 header, h1 {
@@ -33,7 +34,7 @@ header, h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     color:rgb(202, 144, 72);
 }
 li {
@@ -47,47 +48,51 @@ p {
     float: left;
     width: 350px;
     margin-left: 80px;
+    padding-left: 300px;
+    
 }
 .lado-direito {
     float: right;
     width: 200px;
-    border-left: solid rgb(131, 131, 131);
-    border-bottom: solid rgb(131, 131, 131);
-    padding: 100px 20px;
+    border-left: double rgb(131, 131, 131);
+    border-bottom: double rgb(131, 131, 131);
+    border-width: 8px;
+    padding: 100px 40px;
     margin: 0px 0px 100px 2px;
 }
 #list1 {
     float: left;
-    /* clear: left; */
-    margin-left: 0px;
-    margin-top: 126px;
+    margin-left: -600px;
+    margin-top: 700px;
     padding: 20px;
     border-radius:7px;
     background-color: rgb(234, 241, 234);
+    font-size: 25px;
 }
 #imagem {
     border-bottom: solid rgb(131, 131, 131);
 }
 #list2 {
     float: right;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-right: -120px;
+    margin-top: 700px;
     margin-left: 20px;
     padding: 20px;
     border-radius:7px;
     background-color: rgb(234, 241, 234);
+    font-size: 25px;
 
 }
 
 #imagem_color {
-    width: 190px;
-    margin-top: 115px;
-    margin-left:3px;
+    width: 260px;
+    margin-top: 140px;
+    margin-left:550px;
 }
 #imagem_color2 {
-    width: 195px;
-    margin-top: 50px;
-    margin-left:3px;
+    width: 260px;
+    margin-top: 40px;
+    margin-left: 550px;
 }
 aside {
     background-color: rgb(255, 255, 255);
@@ -95,20 +100,25 @@ aside {
 }
 footer {
     clear: both;
-    border-top: solid rgb(141, 140, 140);
+    border-top: solid rgb(209, 209, 209);
     padding: 20px;
     text-align: center;
+    margin-top: 0px;
+    background-color: rgb(255, 253, 243);
 }
 th {
     border: solid rgb(141, 140, 140);
     padding-top: 0;
-    width: 300px;
+    width: 400px;
     text-align: center;
+    font-size: 30px;
+    
 }
 table tr td {
     border: rgb(141, 140, 140) solid;
     padding-top: 0;
     text-align: center;
+    font-size: 27px;
     
 }
 #pesquisa {
@@ -116,11 +126,33 @@ table tr td {
     color: rgb(202, 144, 72);
 }
 table {
-    margin-left: 80px;
-    background-color: rgb(247, 255, 247);
+    margin-left: 290px;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 30px;
 }
 #linkgit {
     border: solid red;
     margin-left: 350px;
 }
+#lado_esquerdo, p {
+    font-size: 25px;
+    text-align: left;
+}
+#tabela h3 {
+    border: groove;
+    margin-top: 80px;
+    font-size: 55px;
+    background-color: rgb(197, 214, 210);
+}
+#git {
+    width: 55px;
+}
+#contato {
+    border: groove;
+    text-align: center;
+    background-color: rgb(197, 214, 210);
+}
+.sombra:hover {
+    filter: drop-shadow(0px 0px 15px rgb(22, 255, 22) ;
+}
+
