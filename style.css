@@ -106,7 +106,7 @@ footer {
     border-top: solid rgb(209, 209, 209);
     padding: 20px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 40px;
     background-color: rgb(24, 13, 59);
 }
 th {
@@ -161,11 +161,10 @@ table {
 }
 footer a {
     color: aliceblue;
-    padding: 10%;
+    padding: 0 10%;
     font-size: 25px;
     text-decoration: none;
 }
 #img1, #img2, #img3 {
     padding: 0 8%;
 }
-
