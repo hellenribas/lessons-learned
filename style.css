@@ -159,7 +159,13 @@ table {
 .sombra:hover {
     filter: drop-shadow(0px 0px 15px rgb(14, 0, 214));
 }
-footer p {
+footer a {
     color: aliceblue;
+    padding: 10%;
+    font-size: 25px;
+    text-decoration: none;
+}
+#img1, #img2, #img3 {
+    padding: 0 8%;
 }
 
