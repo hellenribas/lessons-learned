@@ -8,7 +8,7 @@ header {
     width: 100%;
     height: 70px;
     left: 0;
-    background-color: rgba(145, 156, 156, 0.3);
+    background-color: rgba(10, 79, 136, 0.3);
 
 }
 #minha_foto {
@@ -17,8 +17,8 @@ header {
     margin-top: 80px;
     margin-bottom: 50px;
     object-fit: cover;
-    width: 200px;
-    box-shadow: rgba(5px 5px 5px 10px);
+    width: 240px;
+    box-shadow: 0px 0px 12px 10px rgb(36, 30, 92);
     
 }
 header, h1 {
@@ -26,7 +26,7 @@ header, h1 {
     width: 0 100px;
     text-align: center;
     display: inline;
-    color: rgb(80, 94, 95);
+    color: rgb(255, 255, 255);
     font-family: 'Abril Fatface', cursive;
     font-family: 'Inconsolata', monospace;
     font-family: 'Playfair Display', serif;
@@ -71,10 +71,13 @@ p {
 }
 #imagem {
     border-bottom: solid rgb(131, 131, 131);
+    background-image: url(imagens/fundo3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 #list2 {
     float: right;
-    margin-right: -120px;
+    margin-right: -160px;
     margin-top: 700px;
     margin-left: 20px;
     padding: 20px;
@@ -87,12 +90,12 @@ p {
 #imagem_color {
     width: 260px;
     margin-top: 140px;
-    margin-left:550px;
+    margin-left:560px;
 }
 #imagem_color2 {
     width: 260px;
     margin-top: 40px;
-    margin-left: 550px;
+    margin-left: 560px;
 }
 aside {
     background-color: rgb(255, 255, 255);
@@ -104,7 +107,7 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 0px;
-    background-color: rgb(255, 253, 243);
+    background-color: rgb(24, 13, 59);
 }
 th {
     border: solid rgb(141, 140, 140);
@@ -151,8 +154,12 @@ table {
     border: groove;
     text-align: center;
     background-color: rgb(197, 214, 210);
+    margin-bottom: 0;
 }
 .sombra:hover {
-    filter: drop-shadow(0px 0px 15px rgb(22, 255, 22) ;
+    filter: drop-shadow(0px 0px 15px rgb(14, 0, 214));
+}
+footer p {
+    color: aliceblue;
 }
 
