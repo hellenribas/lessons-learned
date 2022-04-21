@@ -5,6 +5,7 @@
 * Utilizei _CSS_ para adicionar estilo e posicionar elementos.
 
 ---
+
 ## O que foi desenvolvido
 
 Foi o primeiro projeto que fiz no qual consistia em um site simples que continha informações sobre o que aprendi no inicio da minha jornada na Trybe.
